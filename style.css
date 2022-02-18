@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 10%;
+    max-width: 4000px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 400px;
+}
+.area{
+    width: 100%;
+    background-color: #f6e35a;
+}
+h1{
+    color: black;
+    font-size: 30px;
+}
+h3{
+    color: black;
+    background-size: 25px;
+}
+.pizza1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(IMG/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+.btn{
+    width: 150px;
+    margin: 0 auto;
+    height: 60px;
+    background-color: #f6e35a;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #8b8756;
+    padding: 10px 20px;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+}
+.request{
+    width: 100%;
+    background-color: #ebeeb5;
+    position: relative;
+}
+footer{
+    background-color: #fcf4a8;
+    padding: 10%;
+}
+.footer-inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+.footer-inner h2{
+    font-size: 20px;
+    font-weight: 700;
+  
+}
+.footer-inner h2:hover, .footer-inner p:hover{
+    color: red;
+}
+.footer-inner p{
+    font-size: 16px;  
+}
