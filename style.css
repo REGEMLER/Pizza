@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+ul{
+    list-style: none;
+}
 .container{
     width: 100%;
     margin: 0;
@@ -78,9 +81,12 @@ footer{
     font-weight: 700;
   
 }
-.footer-inner h2:hover, .footer-inner p:hover{
-    color: red;
-}
 .footer-inner p{
     font-size: 16px;  
+}
+.black{
+    color: black;
+}
+.red{
+    color: red;
 }
